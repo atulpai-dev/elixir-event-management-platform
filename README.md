@@ -15,12 +15,39 @@ The site documents the exhibition and department through event pages, student pr
 ## Pages
 
 - [`index.html`](index.html) — department landing page and navigation.
-- [`events.html`](events.html) — departmental event listings.
-- [`Event1-details.html`](Event1-details.html) — ELIXIR event and season overview.
-- [`elixir_12.html`](elixir_12.html) — 12th-edition ELIXIR projects and gallery.
-- [`dept_gallery.html`](dept_gallery.html) — department photo gallery.
-- [`elixir_01.html`](elixir_01.html) through [`elixir_12.html`](elixir_12.html) — ELIXIR season pages.
-- `Event2-details.html` through `Event6-details.html` — other departmental event detail pages.
+- [`pages/events/index.html`](pages/events/index.html) — departmental event listings.
+- [`pages/events/elixir/index.html`](pages/events/elixir/index.html) — ELIXIR event and season overview.
+- [`pages/events/elixir/seasons/season-12.html`](pages/events/elixir/seasons/season-12.html) — 12th-edition ELIXIR projects and gallery.
+- [`pages/galleries/department/index.html`](pages/galleries/department/index.html) — department photo gallery.
+- [`pages/events/elixir/seasons/season-01.html`](pages/events/elixir/seasons/season-01.html) through [`pages/events/elixir/seasons/season-12.html`](pages/events/elixir/seasons/season-12.html) — ELIXIR season pages.
+- Event detail pages for Geomitra, Fight of Rackets, Gully Games, E-Ruchi, and Ayuda Pooja.
+
+## Folder structure
+
+```text
+pages/
+├── events/
+│   ├── elixir/
+│   │   └── seasons/
+│   ├── geomitra/
+│   │   └── seasons/
+│   ├── fight-of-rackets/
+│   │   └── seasons/
+│   ├── gully-games/
+│   │   └── seasons/
+│   ├── e-ruchi/
+│   │   └── seasons/
+│   └── ayuda-pooja/
+├── galleries/
+│   └── department/
+├── portfolio-details.html
+└── sample-inner-page.html
+assets/
+├── css/
+├── js/
+├── img/
+└── vendor/
+``` — other departmental event detail pages.
 
 ## View locally
 
