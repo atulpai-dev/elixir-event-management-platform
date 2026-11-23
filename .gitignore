@@ -1,0 +1,10 @@
+# IDE and editor settings
+.idea/
+.vscode/
+
+# Build output
+/out/
+
+# Operating system files
+.DS_Store
+Thumbs.db
